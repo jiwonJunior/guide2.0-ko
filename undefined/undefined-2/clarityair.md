@@ -295,13 +295,13 @@ description: ClarityAIR 검증 도구를 사용한 검증 과정을 설명합니
 
 * **Component List**에서 검증 결과인 **컴포넌트 목록을** 확인할 수 있습니다.&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 
 
 <mark style="background-color:yellow;">※</mark><mark style="background-color:yellow;">**프로젝트 관리자**</mark><mark style="background-color:yellow;">는 해당 단계 하단의</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**SBOM Report**</mark><mark style="background-color:yellow;">에서 검증 결과에 대한</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**SBOM**</mark><mark style="background-color:yellow;">과</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**고지문**</mark><mark style="background-color:yellow;">을 생성할 수 있습니다.</mark>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 
 
