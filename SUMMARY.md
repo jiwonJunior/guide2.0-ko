@@ -27,6 +27,8 @@
   * [서버, 서비스 연동 설정](undefined-1/undefined-5/undefined.md)
   * [식별 규칙 설정](undefined-1/undefined-5/undefined-1.md)
   * [도구, 언어 및 기타 설정](undefined-1/undefined-5/undefined-2.md)
+  * [GENESIS SYNC 동기화](undefined-1/undefined-5/genesis-sync.md)
   * [Nexus Import 설정](undefined-1/undefined-5/nexus-import.md)
   * [FossID Import 설정](undefined-1/undefined-5/fossid-import.md)
   * [NOTICE HEADER 설정](undefined-1/undefined-5/notice-header.md)
+* [VEX 기능](undefined-1/vex.md)
