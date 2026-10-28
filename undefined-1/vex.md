@@ -82,8 +82,16 @@ c. **Not Affected(영향 없음)** 설정 시 필수 작성 기준
 
 
 
-#### 5.&#x20;
+#### 5. SBOM 내보내기 시 VEX 정보 포함 (Export SBOM)
 
-*
+* 생성된 SBOM 파일을 내보낼 때, 검토 완료된 VEX(취약점 영향도 분석 결과) 정보를 파일에 함께 포함하여 추출할 수 있습니다.
+
+
+
+* **설정 옵션 설명:**
+  * Export Type: 내보낼 규격을 선택합니다 (예: CycloneDX 1.6 등).
+  * Format: 파일 형식을 선택합니다 (JSON 또는 XML).
+  * VEX (Include VEX information):
+    * 체크박스를 선택(체크)하면 설정된 VEX 분석 정보(영향 상태 Status, 사유 Justification, 상세 메모 Notes 등)가 SBOM 메타데이터에 함께 포함되어 내보내집니다.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure></div>
