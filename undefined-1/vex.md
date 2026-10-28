@@ -53,3 +53,37 @@ c. **Not Affected(영향 없음)** 설정 시 필수 작성 기준
   * 내부 분석 결과, 미호출 근거, 방어 로직 적용 내역 등 구체적인 설명과 검토 의견을 상세히 작성합니다.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (238).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+
+
+#### 4. 이전 프로젝트 차수의 VEX 설정 가져오기&#x20;
+
+* 이전에 완료된 검증 버전의 VEX 검토 내역(Status, Justification 등)을 현재 검증으로 불러와 동일한 컴포넌트 및 CVE에 일괄 적용할 수 있습니다. **\[Import Data from Previous Version]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* VEX 데이터를 가지고 올 프로젝트 차수를 선택합니다.
+
+<figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* 주의 사항을 확인한 뒤 **\[Import]** 버튼을  클릭하여 데이터 가지고 옵니다.
+
+<figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* 데이터 가져오기(Import)가 성공적으로 완료되면 **화면 우측 상단에 알림이 표시**됩니다.
+
+<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### 5.&#x20;
+
+*
+
+<div align="left"><figure><img src="../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure></div>
