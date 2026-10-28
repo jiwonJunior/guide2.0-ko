@@ -27,10 +27,29 @@ a. [**2. VEX 설정 가능 화면**](vex.md#id-2.-vex) 위치로 이동하여 **
 
 
 
+
+
 b. VEX 설정 패널(REVIEW) 활성화되면 설정 및 편집 가능합니다.&#x20;
 
-* Affected: 기본 값. 영향 있음.
-* Not Affected: 필수로 사유 선택해야합니다. 영향 없음.
-* Fixed
+* **기본값 (Default)**: Affected (영향 있음)
+  * CVE 탐지 시 기본적으로 실제 영향이 있는 상태(Affected)로 지정됩니다.
+* **상태 옵션**
+  * Affected: 현재 환경에서 실제 보안 영향이 있어 조치(패치, 설정 변경 등)가 필요한 경우
+  * Not Affected: 취약한 컴포넌트가 포함되어 있으나, 호출 경로 부재/자체 방어 로직 등으로 인해 실제 악용될 위험이 없는 경우
+  * Fixed: 패치나 버전 업그레이드 등을 통해 조치가 완료된 경우
+  * Under Investigation: 영향도 분석이 아직 진행 중인 경우
+
+<figure><img src="../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+
+
+
+c. **Not Affected(영향 없음)** 설정 시 필수 작성 기준
+
+상태를 Not Affected로 변경할 때는 명확한 근거를 반드시 입력해야 합니다.
+
+* Justification (필수 선택):
+  * 영향이 없다고 판단한 표준 사유(예: 취약 코드 미실행, 실행 경로 없음, 인라인 완화 조치 적용 등)를 드롭다운 목록에서 필수로 선택합니다.
+* Additional Notes (상세 코멘트):
+  * 내부 분석 결과, 미호출 근거, 방어 로직 적용 내역 등 구체적인 설명과 검토 의견을 상세히 작성합니다.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (238).png" alt="" width="563"><figcaption></figcaption></figure></div>
