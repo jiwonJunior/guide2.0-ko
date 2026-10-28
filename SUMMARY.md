@@ -18,6 +18,7 @@
 * [사용자 역할(Role) 관리](undefined-1/role.md)
 * [정책 관리](undefined-1/undefined-1.md)
 * [프로덕트 관리](undefined-1/undefined-2.md)
+* [VEX 기능](undefined-1/vex.md)
 * [SBOM 리포트 생성 및 다운로드](undefined-1/sbom.md)
 * [고지문 작성하기](undefined-1/undefined-3/README.md)
   * [고지문 작성하기](undefined-1/undefined-3/undefined.md)
@@ -31,4 +32,3 @@
   * [Nexus Import 설정](undefined-1/undefined-5/nexus-import.md)
   * [FossID Import 설정](undefined-1/undefined-5/fossid-import.md)
   * [NOTICE HEADER 설정](undefined-1/undefined-5/notice-header.md)
-* [VEX 기능](undefined-1/vex.md)
