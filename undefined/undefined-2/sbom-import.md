@@ -6,6 +6,10 @@ description: SBOM Import하는 방법을 설명합니다.
 
 #### 1. SBOM Import 기능 개요
 
+외부 또는 자체 생성된 SBOM 파일을 업로드하여 컴포넌트 목록과 보안 정보를 시스템에 등록하고 검증 워크플로우를 진행할 수 있습니다.
+
+
+
 * SBOM Import는 **2단계 워크플로우**로 진행됩니다.
 * 개발자는 관리자 함께 진행할 수 있습니다.
 * 관리자가 진행합니다.
@@ -16,17 +20,28 @@ description: SBOM Import하는 방법을 설명합니다.
 
 #### 2. SBOM 파일 스캔하기
 
-\[SBOM Verification] 클릭해서 검증할 파일을 선택합니다.
+**\[SBOM Import]** 버튼을 클릭해서 검증할 파일을 선택합니다.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
 
 
-* Import할 SBOM 파일과 포맷을 선택합니다.
-* SBOM 파일은 JSON 형식만 지원합니다.
-* &#x20;SPDX 3.0, CycloneDX 1.6, System Default SBOM 포맷을 선택할 수 있습니다. SBOM 관리에서 포맷을 추가하면 목록에 같이 표시됩니다. ([SBOM 포맷 관리 방법 참고](../../undefined-1/sbom-1.md))
+**지원 파일 형식 및 규격**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (125).png" alt="" width="446"><figcaption></figcaption></figure></div>
+* 지원 확장자: .json, .txt, .jsonld, .xml, .rdf, .rdf.xml, .xlsx
+* 엑셀 템플릿 사용 안내:
+  * 표준 SBOM 파일이 없는 경우, 업로드 영역 하단의 (DOWNLOAD EXCEL TEMPLATE) 링크를 클릭하여 양식을 다운로드합니다.
+  * **정해진 엑셀 템플릿 항목**에 맞추어 컴포넌트 및 라이선스 정보를 입력한 후 .xlsx 파일로 업로드할 수 있습니다.
+
+
+
+**업로드 및 포맷 자동 감지**
+
+* 파일 등록: Upload file 영역을 클릭하여 대상 SBOM 파일을 선택하거나 드래그 앤 드롭합니다. (파일 변경 시 우측 Change file 버튼 이용)
+* 포맷 자동 분석 (DETECTED FORMAT):
+  * 파일을 올리면 시스템이 내부 구조를 파악하여 SBOM의 표준 규격과 버전을 자동으로 인식합니다. ([SBOM 포맷 관리 방법 참고](../../undefined-1/sbom-1.md))
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (248).png" alt="" width="543"><figcaption></figcaption></figure></div>
 
 #### 3. SBOM 상세 화면 설명
 
