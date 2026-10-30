@@ -10,7 +10,7 @@
   * [Clarity 검증하기](undefined/undefined-2/clarity.md)
   * [FossID 검증하기](undefined/undefined-2/fossid.md)
   * [ClarityAIR 검증하기](undefined/undefined-2/clarityair.md)
-  * [SBOM Import 방법](undefined/undefined-2/sbom-import.md)
+* [SBOM Import 하기](undefined/sbom-import.md)
 
 ## 관리자 가이드
 
