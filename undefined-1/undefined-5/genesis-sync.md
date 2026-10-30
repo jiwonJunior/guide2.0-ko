@@ -14,6 +14,8 @@ description: 컴포넌트, 라이선스, CVE, 알림 정보 등을 동기화
 * **지금 동기화(Sync)**: 마지막으로 완료된 지점부터 동기화를 계속 진행합니다.
 * **전체 동기화(Full Sync)**: 동기화 처음부터 다시 시작하여 모든 컴포넌트 라이선스를 다시 가져옵니다.
 
+<mark style="background-color:$primary;">※최초 설치 시 Genesis Sync v2 선택 후, 전체동기화 필요합니다.</mark>
+
 <figure><img src="../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 
 
